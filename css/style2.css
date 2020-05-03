@@ -1,0 +1,18 @@
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: green;
+  font-family: cursive;
+  text-align: center;
+text-decoration: underline;
+}
+p {
+  font-style: oblique;
+  color: coral;
+    }
+
+body {
+  background-color: cyan;
+  }
