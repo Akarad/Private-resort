@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style1.css" type="text/css">
+    <link rel="stylesheet" href="css/scripts.js">
     <a href="index.html">HOME</a>
     <a href="accomodations.html">ACCOMODATION</a>
     <a href="activities.html">ACTIVITIES</a>
@@ -14,10 +15,15 @@
   </head>
   <body>
     <div class="container">
-      <form class="" action="index.html" method="post">
-        <label for="contact">Need help?</label><input  type="text" placeholder="Type request here." name="" value="">
-        <button type="button" name="button">submit</button>
-      </form>
+
+        <form id="help" class="" action="index.html" method="post">
+          <div class="form-group"><label for="contact">Need help?</label><input  type="text" placeholder="Type request here." name="" value=""></div>
+          <div class="form-group"><label for="name">First name</label><input type="text" placeholder="John" name="" value=""></div>
+          <div class="form-group"><label for="name">Last name</label><input type="text"placeholder="Doe" name="" value=""></div>
+
+          <button type="button" name="button">submit</button>
+        </form>
+
       <p>Feel free to pay us a visit on facebook, twitter and instagram handle @summerisland</p>
     </div>
   </body>
